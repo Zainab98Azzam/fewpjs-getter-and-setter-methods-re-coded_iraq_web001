@@ -4,13 +4,13 @@
      this.radius = radius
    }
    
-   get diameter() {
+   get diameter () {
      return this.radius * Math.PI
    }
    get area (){
      return this.radius *this.radius * Math.PI
    }
-   get circumference(){
+   get circumference (){
    return this.diameter * Math.PI
  }
  }

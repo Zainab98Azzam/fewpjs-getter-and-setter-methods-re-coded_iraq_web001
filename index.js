@@ -13,7 +13,13 @@
    get circumference (){
    return this.diameter * Math.PI
  }
- set 
+  set diameter(dia) {
+    this.radius = dia/2
+  }
+
+  set circumference(num) {
+    this.radius =  (num/3.14)/2
+  }
  }
  
  

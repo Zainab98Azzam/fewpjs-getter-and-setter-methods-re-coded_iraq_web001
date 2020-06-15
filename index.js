@@ -5,7 +5,7 @@
    }
    
    get diameter (){
-     return this.radius * Math.PI
+     return this.radius * 2
    }
    get area (){
      return this.radius *this.radius * Math.PI

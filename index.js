@@ -4,13 +4,13 @@
      this.radius = radius
    }
    
-   set diameter() {
+   get diameter() {
      return this.radius * Math.PI
    }
-   set area (){
+   get area (){
      return this.radius *this.radius * Math.PI
    }
-   set circumference(){
+   get circumference(){
    return this.diameter * Math.PI
  }
  }

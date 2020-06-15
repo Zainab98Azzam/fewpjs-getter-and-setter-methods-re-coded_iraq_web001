@@ -13,7 +13,7 @@
    get circumference (){
    return this.diameter * Math.PI
  }
+ set 
  }
- newcircle = Circle(5)
- console.log(newcircle)
+ 
  

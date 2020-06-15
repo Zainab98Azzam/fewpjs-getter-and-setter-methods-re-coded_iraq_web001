@@ -14,5 +14,6 @@
    return this.diameter * Math.PI
  }
  }
- 
+ newcircle = Circle(5)
+ console.log(newcircle)
  

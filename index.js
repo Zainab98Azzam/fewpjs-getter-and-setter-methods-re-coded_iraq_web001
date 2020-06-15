@@ -10,6 +10,9 @@
    set area (){
      return this.radius *this.radius * Math.PI
    }
+   set circumference(){
+   return this.diameter * Math.PI
+ }
  }
  
- set 
+ 
